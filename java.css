@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding : 0px;
+    overflow:hidden;
+    cursor: pointer;
+    font-family: sans-serif;}
+body{
+    width :100%;
+    height : 100vh;
+    overflow: hidden;
+    background: linear-gradient(to right,violet,Skyblue);
+}
+div{
+    font-size: 1rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin:80px;
+    text-align: justify;
+}
+.image{
+    width:50px;
+    height:50px;
+}
+.img{
+    height:200px;
+    width:250px;
+    margin-left: 400px;
+    border-radius: 10px;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+    div{
+        width: 100%;
+        text-align : center;
+    }
+    
+    .img{
+        width:50%;
+        position: absolute;
+        display: flex;
+        justify-content:center;
+    }
+}
